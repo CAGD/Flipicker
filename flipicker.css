@@ -1,0 +1,91 @@
+.flipicker_wrapper input {
+	display: none ;
+}
+
+.flipicker_wrapper {
+	width: 160px ;
+	height: 60px ;
+	margin-bottom: 20px ;
+}
+
+.flipicker_wrapper a {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none ;
+}
+
+.flipicker_wrapper .hours,
+.flipicker_wrapper .minutes,
+.flipicker_wrapper .tophalf {
+	padding: 0 5px ;
+	margin: 0 ;
+	padding: 0 ;
+	float: left ;
+	display: inline ;
+	width: 78px ;
+	height: 60px ;
+	background-color: rgba(38,38,38,1);
+	
+	font-family: "Helvetica Neue", Helvetica ;
+	font-weight: normal ;
+	font-size: 50px ;
+	text-align: center ;
+	line-height: 55px ;
+
+	border-top-left-radius: 8px ;
+	border-bottom-left-radius: 8px ;
+
+	border-top-right-radius: 8px ;
+	border-bottom-right-radius: 8px ;
+	position: relative ;
+
+	background-color: #262626;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(38, 38, 38)), to(rgb(77, 77, 77)));
+	background-image: -webkit-linear-gradient(top, rgb(38, 38, 38), rgb(77, 77, 77));
+	background-image: -moz-linear-gradient(top, rgb(38, 38, 38), rgb(77, 77, 77));
+	background-image: -o-linear-gradient(top, rgb(38, 38, 38), rgb(77, 77, 77));
+	background-image: -ms-linear-gradient(top, rgb(38, 38, 38), rgb(77, 77, 77));
+	background-image: linear-gradient(top, rgb(38, 38, 38), rgb(77, 77, 77));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#262626', EndColorStr='#4d4d4d');
+
+}
+
+.flipicker_wrapper .hours, .flipicker_wrapper .hours .tophalf {
+	width: 68px ;
+	padding-right: 10px ;
+	margin-right: 4px ;
+	text-align: right ;
+	letter-spacing: -4px ;
+}
+
+.flipicker_wrapper .tophalf {
+	height: 29px ;
+	overflow: hidden ;
+	position: absolute ;
+	top: 0 ;
+	left: 0 ;
+	
+	border-bottom-right-radius: 0 ;
+	border-bottom-left-radius: 0 ;
+	
+	border-bottom: 2px solid rgba(26,26,26,1);
+	
+	background-color: #262626;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(38, 38, 38)), to(rgb(46, 46, 46)));
+	background-image: -webkit-linear-gradient(top, rgb(38, 38, 38), rgb(46, 46, 46));
+	background-image: -moz-linear-gradient(top, rgb(38, 38, 38), rgb(46, 46, 46));
+	background-image: -o-linear-gradient(top, rgb(38, 38, 38), rgb(46, 46, 46));
+	background-image: -ms-linear-gradient(top, rgb(38, 38, 38), rgb(46, 46, 46));
+	background-image: linear-gradient(top, rgb(38, 38, 38), rgb(46, 46, 46));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#262626', EndColorStr='#2e2e2e');
+}
+
+.flipicker_wrapper .pm {
+	position: absolute ;
+	font-size: 9px ;
+	font-weight: bold ;
+	left: 6px ;
+	bottom: 13px ;
+	letter-spacing: 1px ;
+	line-height: 10px ;
+	color: rgba(255,255,255,0.9);
+}
