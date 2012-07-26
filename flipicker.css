@@ -16,7 +16,6 @@
 .flipicker_wrapper .hours,
 .flipicker_wrapper .minutes,
 .flipicker_wrapper .tophalf {
-	padding: 0 5px ;
 	margin: 0 ;
 	padding: 0 ;
 	float: left ;
@@ -88,4 +87,56 @@
 	letter-spacing: 1px ;
 	line-height: 10px ;
 	color: rgba(255,255,255,0.9);
+}
+
+/* light theme */
+
+.flipicker_light a {
+	color: rgba(0,0,0,0.9);
+}
+
+.flipicker_light .hours,
+.flipicker_light .minutes,
+.flipicker_light .tophalf {
+
+background-color: #f5f5f5;
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(245, 245, 245)), to(rgb(255, 255, 255)));
+background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(255, 255, 255));
+background-image: -moz-linear-gradient(top, rgb(245, 245, 245), rgb(255, 255, 255));
+background-image: -o-linear-gradient(top, rgb(245, 245, 245), rgb(255, 255, 255));
+background-image: -ms-linear-gradient(top, rgb(245, 245, 245), rgb(255, 255, 255));
+background-image: linear-gradient(top, rgb(245, 245, 245), rgb(255, 255, 255));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f5f5f5', EndColorStr='#ffffff');
+
+
+	/* 
+border: 1px solid #ccc ;
+	width: 70px !important ;
+	height: 58px ;
+ */
+
+}
+
+.flipicker_light .tophalf {
+
+background-color: #d6d6d6;
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(214, 214, 214)), to(rgb(245, 245, 245)));
+background-image: -webkit-linear-gradient(top, rgb(214, 214, 214), rgb(245, 245, 245));
+background-image: -moz-linear-gradient(top, rgb(214, 214, 214), rgb(245, 245, 245));
+background-image: -o-linear-gradient(top, rgb(214, 214, 214), rgb(245, 245, 245));
+background-image: -ms-linear-gradient(top, rgb(214, 214, 214), rgb(245, 245, 245));
+background-image: linear-gradient(top, rgb(214, 214, 214), rgb(245, 245, 245));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#d6d6d6', EndColorStr='#f5f5f5');
+	
+	border: none ;
+	border-bottom: 2px solid #dadada;
+/* 
+	width: 66px ;	
+	height: 29px ;
+ */
+
+}
+
+.flipicker_light .pm {
+	color: rgba(0,0,0,0.9);
 }

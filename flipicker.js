@@ -12,7 +12,7 @@
 			if(newHours>12) { newHours -=12 ; }
 			if(newHours==0) { newHours = 12 ; }
 			if(newMinutes<10) { newMinutes = '0' + newMinutes ; }
-			$(this).addClass('wrapped').wrap('<div class="flipicker_wrapper" id="' + newID + '_flipicker">') ;
+			$(this).addClass('wrapped').wrap('<div class="flipicker_wrapper flipicker_light" id="' + newID + '_flipicker">') ;
 			$('#' + newID + '_flipicker').append('<div class="hours"><a href="#" class="val">' + newHours + '</a><div class="tophalf"><a href="#" class="val">' + newHours + '</a></div><div class="pm">' + pm + '</div></div><div class="minutes"><a href="#" class="val">' + newMinutes + '</a><div class="tophalf"><a href="#" class="val">' + newMinutes + '</a></div></div>') ;
 		});
 	
@@ -103,7 +103,7 @@
 				
 		el.closest('.flipicker_wrapper').find('input').val(d.getTime()).change() ;
 	}
-	
+/*	
 (function( $ ){
 
   var methods = {
@@ -148,3 +148,4 @@
   };
 
 })( jQuery );
+*/
